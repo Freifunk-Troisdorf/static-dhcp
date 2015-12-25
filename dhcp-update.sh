@@ -6,10 +6,8 @@ REMOTE=$(git rev-parse @{u})
 
 if [ $LOCAL = $REMOTE ]; then
     echo "Up-to-date"
-elif [ $LOCAL = $BASE ]; then
+else
     echo "Need to pull"
     git pull
     /etc/init.d/isc-dhcp-server restart
-else
-    echo "Nothing"
 fi
