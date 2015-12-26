@@ -1,5 +1,6 @@
 #!/bin/sh
 cd /opt/freifunk/static-dhcp
+git checkout master
 git remote update
 LOCAL=$(git rev-parse @)
 REMOTE=$(git rev-parse @{u})
@@ -12,6 +13,7 @@ else
     git pull
 fi
 if [ ${#data} -gt 1 ]; then
+        git checkout fallback
         exit 1;
 else
         /etc/init.d/isc-dhcp-server restart
