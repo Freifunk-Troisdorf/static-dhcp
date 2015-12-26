@@ -6,7 +6,7 @@ REMOTE=$(git rev-parse @{u})
 if [ $LOCAL = $REMOTE ]; then
     cp ./static.conf.template ./static.conf
     echo "Up-to-date"
-#    exit 0
+    exit 0
 else
     echo "Need to pull"
     git pull
