@@ -1,4 +1,4 @@
 language: bash
 sudo: false
 script: 
- - ls
+ - ./check.sh
