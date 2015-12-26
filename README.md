@@ -1,4 +1,4 @@
-# Static IP Addresses 
+# Static IP Addresses [![Build Status](https://travis-ci.org/Freifunk-Troisdorf/static-dhcp.svg?branch=master)](https://travis-ci.org/Freifunk-Troisdorf/static-dhcp)
 Repo for Static DHCP Addresses in the Freifunk Community Troisdorf
 
 Please use IP Addresses in the 10.188.2.xxx range.
