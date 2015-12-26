@@ -7,12 +7,13 @@ data=`cat ./static.conf.template | sort | uniq -d`
 if [ $LOCAL = $REMOTE ]; then
     cp ./static.conf.template ./static.conf
     echo "Up-to-date"
-    exit 0
+#    exit 0
 else
     echo "Need to pull"
     git pull
 fi
-if [ ${#data} -gt 1 ]; then
+./check.sh
+if [ $? -eq 1 ]; then
     echo "Config Fehlerhaft"
     exit 1;
 else
