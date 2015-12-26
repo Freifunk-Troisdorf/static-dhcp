@@ -7,7 +7,6 @@ host build {
                 fixed-address 10.188.1.30;
                 option host-name "build";}
 host stefan {
-host stefan {
                 hardware ethernet bc:ae:c5:36:83:28;
                 fixed-address 10.188.1.155;
                 option host-name "stefan1";}
