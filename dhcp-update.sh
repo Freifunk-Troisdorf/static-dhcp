@@ -3,7 +3,6 @@ cd /opt/freifunk/static-dhcp
 git remote update
 LOCAL=$(git rev-parse @)
 REMOTE=$(git rev-parse @{u})
-data=`cat ./static.conf.template | sort | uniq -d`
 if [ $LOCAL = $REMOTE ]; then
     cp ./static.conf.template ./static.conf
     echo "Up-to-date"
