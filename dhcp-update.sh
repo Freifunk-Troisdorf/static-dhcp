@@ -1,6 +1,5 @@
 #!/bin/sh
 cd /opt/freifunk/static-dhcp
-git checkout master
 git remote update
 LOCAL=$(git rev-parse @)
 REMOTE=$(git rev-parse @{u})
@@ -10,6 +9,7 @@ if [ $LOCAL = $REMOTE ]; then
     exit 0
 else
     echo "Need to pull"
+    git checkout master
     git pull
 fi
 if [ ${#data} -gt 1 ]; then
