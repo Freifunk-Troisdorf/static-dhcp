@@ -6,6 +6,7 @@ REMOTE=$(git rev-parse @{u})
 data=`cat ./static.conf | sort | uniq -d`
 if [ $LOCAL = $REMOTE ]; then
     echo "Up-to-date"
+    exit 0
 else
     echo "Need to pull"
     git pull
