@@ -13,8 +13,10 @@ else
     git pull
 fi
 if [ ${#data} -gt 1 ]; then
+    echo "Config Fehlerhaft"
     exit 1;
 else
+    echo "DHCP Restart"
     cp ./static.conf.template ./static.conf
     /etc/init.d/isc-dhcp-server restart
 fi
