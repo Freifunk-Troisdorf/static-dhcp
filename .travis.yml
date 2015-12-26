@@ -1,4 +1,6 @@
 language: bash
 sudo: false
+notifications:
+  slack: fftdf:mP5lP4wbjDppb54kckURGrkR
 script: 
  - ./check.sh
