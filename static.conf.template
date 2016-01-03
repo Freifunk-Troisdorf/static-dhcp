@@ -10,3 +10,7 @@ host stefan {
                 hardware ethernet bc:ae:c5:36:83:28;
                 fixed-address 10.188.1.155;
                 option host-name "stefan1";}
+host stefaniphone {
+                hardware ethernet DC:37:14:D3:B4:67;
+                fixed-address 10.188.1.156;
+                option host-name "stefaniphone";}
