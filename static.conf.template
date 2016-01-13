@@ -19,6 +19,6 @@ host update2 {
                 fixed-address 10.188.1.23;
                 option host-name "update2";}
 host update1 {
-                hardware ethernet 32:36:C9:DB:D1:E4;
+                hardware ethernet c6:8b:87:a0:19:b8;
                 fixed-address 10.188.1.22;
                 option host-name "update1";}
