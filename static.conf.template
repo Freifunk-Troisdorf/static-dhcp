@@ -9,9 +9,7 @@ host build {
 host stefan {
                 hardware ethernet bc:ae:c5:36:83:28;
                 fixed-address 10.188.1.155;
-                option host-name "stefan1";
-                option next-server 10.188.1.2;
-                option filename "grldr";}
+                option host-name "stefan1";}
 host stefaniphone {
                 hardware ethernet DC:37:14:D3:B4:67;
                 fixed-address 10.188.1.156;
