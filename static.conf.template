@@ -22,3 +22,7 @@ host update1 {
                 hardware ethernet c6:8b:87:a0:19:b8;
                 fixed-address 10.188.1.22;
                 option host-name "update1";}
+host pxe {
+                hardware ethernet 0A:48:9B:BA:84:2F;
+                fixed-address 10.188.1.2;
+                option host-name "pxe";}
