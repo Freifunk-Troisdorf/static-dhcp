@@ -3,7 +3,7 @@ host database {
                 fixed-address 10.188.1.27;
                 option host-name "database";}
 host build {
-                hardware ethernet FA:A7:98:D8:9E:87;
+                hardware ethernet 6A:38:05:6E:DF:5C;
                 fixed-address 10.188.1.30;
                 option host-name "build";}
 host stefan {
