@@ -6,14 +6,6 @@ host build {
                 hardware ethernet 6A:38:05:6E:DF:5C;
                 fixed-address 10.188.1.30;
                 option host-name "build";}
-host stefan {
-                hardware ethernet bc:ae:c5:36:83:28;
-                fixed-address 10.188.1.155;
-                option host-name "stefan1";}
-host stefaniphone {
-                hardware ethernet DC:37:14:D3:B4:67;
-                fixed-address 10.188.1.156;
-                option host-name "stefaniphone";}
 host update2 {
                 hardware ethernet 00:19:99:5f:b1:b6;
                 fixed-address 10.188.1.23;
