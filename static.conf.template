@@ -11,10 +11,10 @@ host update1 {
                 fixed-address 10.188.1.22;
                 option host-name "update1";}
 host map {
-                hardware ethernet 42:42:6A:8D:2A:D1;
-                fixed-address 10.188.1.111;
+                hardware ethernet 42:42:6a:8d:2a:d1;
+                fixed-address 10.188.32.111;
                 option host-name "map";}
 host database {
-                hardware ethernet 3A:75:96:E8:0D:4B;
-                fixed-address 10.188.1.112;
+                hardware ethernet 3a:75:96:e8:0d:4B;
+                fixed-address 10.188.32.112;
                 option host-name "database";}
