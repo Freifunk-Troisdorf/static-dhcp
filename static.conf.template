@@ -18,3 +18,15 @@ host database {
                 hardware ethernet 3a:75:96:e8:0d:4B;
                 fixed-address 10.188.32.112;
                 option host-name "database";}
+host update-tdf {
+                hardware ethernet 62:38:61:34:34:61;
+                fixed-address 10.188.0.30;
+                option host-name "update-tdf";}
+host update-flu {
+                hardware ethernet 32:64:34:65:32:66;
+                fixed-address 10.188.64.30;
+                option host-name "update-flu";}
+host update-inn {
+                hardware ethernet 36:33:36:35:33:64;
+                fixed-address 10.188.32.30;
+                option host-name "update-inn";}
