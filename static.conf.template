@@ -15,8 +15,8 @@ host map {
                 fixed-address 10.188.32.111;
                 option host-name "map";}
 host database {
-                hardware ethernet 3a:75:96:e8:0d:4B;
-                fixed-address 10.188.32.112;
+                hardware ethernet 32:32:63:32:35:63;
+                fixed-address 10.188.0.10;
                 option host-name "database";}
 host update-tdf {
                 hardware ethernet 62:38:61:34:34:61;
