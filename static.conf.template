@@ -1,6 +1,6 @@
 host build {
-                hardware ethernet 6A:38:05:6E:DF:5C;
-                fixed-address 10.188.1.30;
+                hardware ethernet 22:75:3E:A8:E5:1F;
+                fixed-address 10.188.0.9;
                 option host-name "build";}
 host update2 {
                 hardware ethernet 00:19:99:5f:b1:b6;
