@@ -36,3 +36,8 @@ host update-inn {
                 hardware ethernet 32:64:34:65:32:66;
                 fixed-address 10.188.32.30;
                 option host-name "update-inn";}
+
+host mumble {
+                hardware ethernet 36:31:64:63:64:31;
+                fixed-address 10.188.9.230;
+                option host-name "mumble";}
