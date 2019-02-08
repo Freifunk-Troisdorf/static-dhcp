@@ -18,5 +18,11 @@ if [ $? -eq 1 ]; then
 else
     echo "DHCP Restart"
     cp ./static.conf.template ./static.conf
-    /etc/init.d/isc-dhcp-server restart
+    /bin/systemctl stop isc-dhcp-server
+    /bin/sleep 2
+    /usr/bin/killall dhcpd
+    /bin/sleep 2
+    /bin/rm /var/run/dhcpd.pid
+    /bin/sleep 2
+    /bin/systemctl start isc-dhcp-server
 fi
